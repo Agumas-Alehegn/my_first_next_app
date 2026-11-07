@@ -19,7 +19,6 @@ export default async function PostDetail({ params }) {
     notFound();
   }
   const isOwner = user && String(post.createdBy) === user.id;
-  console.log("owner:", isOwner);
   return (
     <main className="pt-10 p-4">
       <div className="flex justify-between items-center ">
