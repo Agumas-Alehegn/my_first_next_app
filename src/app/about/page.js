@@ -11,4 +11,4 @@ export default function about() {
       </Link>
     </main>
   );
-
+}
